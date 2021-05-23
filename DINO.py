@@ -20,19 +20,6 @@ def space():
     pyautogui.keyDown("up")
 def down():
     pyautogui.keyDown("down")
-"""def black_cac():
-    image=dino[0]+50,dino[1],dino[0]+220,dino[1]+41
-    img=ImageGrab.grab(image).convert('L')
-    b=asarray(img)
-    print(b.sum())
-    return(b.sum())
-
-def black_bird():
-    imag=dino[0]+150,dino[1]-36,dino[0]+290,dino[1]-28
-    img=ImageGrab.grab(imag).convert('L')
-    b=asarray(img)
-    print(b.sum())
-    return(b.sum())"""
 
 def bird():
     imag=dino[0]+150,dino[1]-36,dino[0]+280,dino[1]-28
@@ -62,12 +49,4 @@ while(True):
     elif(bird()!=265200 ):
         space()
 
-    """elif(black_bird()==0):
-        if(black_bird()!=0):
-            space()
-
-    elif(black_cac()==0):
-        if(black_cac()!=0):
-                space()
-"""
 
